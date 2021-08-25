@@ -1,0 +1,17 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: MiaoSha
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3305/miaosha?serverTimezone=Asia/Shanghai
+    username: root
+    password: 147iorakyo
+    type: com.alibaba.druid.pool.DruidDataSource
+
+mybatis:
+  type-aliases-package: com.business
+  mapper-locations:
+    - mapper/*
