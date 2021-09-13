@@ -7,10 +7,14 @@
 
     <context id="DB2Tables" targetRuntime="MyBatis3">
         <!--数据库链接地址账号密码-->
-        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+        <!--jdbcConnection driverClass="com.mysql.jdbc.Driver"
                         connectionURL="jdbc:mysql://localhost:3305/miaosha?serverTimezone=GMT&amp;characterEncoding=UTF-8&amp;useSSL=false"
                         userId="root"
-                        password="147iorakyo">
+                        password="147iorakyo"-->
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://139.9.189.141:3306/MiaoSha?serverTimezone=GMT&amp;characterEncoding=UTF-8&amp;useSSL=false"
+                        userId="root"
+                        password="114477">
         </jdbcConnection>
 
         <!--生成DataObject类存放位置-->
