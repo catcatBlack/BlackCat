@@ -6,9 +6,9 @@ spring:
     name: MiaoSha
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3305/miaosha?serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://139.9.189.141:3306/MiaoSha?serverTimezone=Asia/Shanghai
     username: root
-    password: 147iorakyo
+    password: 114477
     type: com.alibaba.druid.pool.DruidDataSource
 
 mybatis:
