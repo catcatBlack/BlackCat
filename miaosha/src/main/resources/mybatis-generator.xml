@@ -37,12 +37,12 @@
                selectByExampleQueryId="false"
                这些属性是为了使得只生成简单查询的对应文件，去掉复杂查询的生成文件，因为一般开发中不太用的到-->
 
-        <table tableName="promo" domainObjectName="promoDO"
+        <!--table tableName="promo" domainObjectName="promoDO"
                enableCountByExample="false"
                enableUpdateByExample="false"
                enableDeleteByExample="false"
                enableSelectByExample="false"
-               selectByExampleQueryId="false"></table>
+               selectByExampleQueryId="false"></table>-->
         <!--table tableName="sequence_info" domainObjectName="sequenceDO"
                enableCountByExample="false"
                enableUpdateByExample="false"
@@ -54,14 +54,14 @@
                enableUpdateByExample="false"
                enableDeleteByExample="false"
                enableSelectByExample="false"
-               selectByExampleQueryId="false"></table>
+               selectByExampleQueryId="false"></table-->
         <table tableName="item" domainObjectName="itemDO"
                enableCountByExample="false"
                enableUpdateByExample="false"
                enableDeleteByExample="false"
                enableSelectByExample="false"
                selectByExampleQueryId="false"></table>
-        <table tableName="item_stock" domainObjectName="itemStockDO"
+        <!--table tableName="item_stock" domainObjectName="itemStockDO"
                enableCountByExample="false"
                enableUpdateByExample="false"
                enableDeleteByExample="false"
